@@ -46,18 +46,43 @@ export default function CollectionPage() {
   const products = [
     {
       id: 1,
-      name: "Nadine",
-      price: "₨ 22,250 – ₨ 24,750",
-      image: "/assets/1.jpg",
+      name: "Pom Pom",
+      price: "₨ 15,000",
+      description:`Includes Matching Scarf 
+ Material: Premium Nida
+
+A statement piece crafted from luxurious premium nida fabric, this black abaya features dramatic bell sleeves adorned with playful black and turquoise textured pom-pom detailing. The front is enhanced with structured pleated trimming, adding a refined touch to its flowy silhouette. Paired with a matching scarf, this abaya blends sophistication with a hint of fun — perfect for elevating your modest wear collection.`,
+      image: "/assets/13.jpg",
       collection: "Ramadan Collection'25",
       category: "Formals",
       featured: true,
     },
     {
       id: 2,
+      name: "Zarina",
+      price: "₨ 13,000",
+      description:`Includes Matching Scarf 
+ Available in 2 Colors 
+Material: Premium Fabric
+
+Gracefully designed with a blend of deep plum and black panels, the Zarina Abaya features delicate floral embroidery on the front, framed by soft beige piping for a striking contrast. The flared sleeves and sleek lines give it a modern, flowy silhouette that flatters all body types. Comes with a matching scarf for a complete, polished look. Ideal for both casual elegance and formal occasions.`,
+      image: "/assets/2.jpg",
+      collection: "Ramadan Collection'25",
+      category: "Formals",
+      featured: true,
+    },
+    {
+      id: 3,
       name: "Layla",
-      price: "₨ 24,250 – ₨ 29,750",
-      image: "/assets/7.jpg",
+      price: "₨ 11,500 – ₨ 14,000",
+      description:`Elevate your wardrobe with this elegant outerwear piece, crafted from luxurious Laser Nida fabric for a smooth and graceful drape. This design features intricate embroidered detailing and comes with a beautifully embroidered scarf for a complete and refined look. Perfect for both formal and casual settings.
+
+Details:
+	•	Material: Premium Laser Nida
+	•	Includes: Embroidered scarf
+	•	Optional: Can be customized with a plain scarf upon request
+`,
+      image: "/assets/27.jpeg",
       collection: "Ramadan Collection'25",
       category: "Formals, Pret",
       featured: true,
@@ -139,6 +164,7 @@ export default function CollectionPage() {
       name: "Yasmin",
       price: "₨ 20,250 – ₨ 23,750",
       image: "/assets/25.jpg",
+      
       collection: "Ramadan Collection'25",
       category: "Prayer Sets",
       featured: false,
